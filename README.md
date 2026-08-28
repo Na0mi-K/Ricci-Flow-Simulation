@@ -31,7 +31,9 @@ $$
 Where θ^jk_i is the interior angle at vertex $i$ in triangle $Δijk$. Under Ricci Flow , circle packings or conformal edge factors evovle dynamically so $Ki$ -> 0 (or constant curvature)
 -The Challenge : Dynamically adjust vertex coordinates or conformal metric scaling factors $ui$ at each step :
 
+$$
 \frac{du_i}{dt} = -K_i
+$$
 
 This program updates the triangulation geometry using iterative matrix solvers (such as cnjugate gradient) while avoiding inverted triangles
 I also mapped an arbitrary 3D genus-0 mesh into a conformal , minimal-distortion sphere
