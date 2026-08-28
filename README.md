@@ -23,7 +23,9 @@ This program implements the discrete curvaure flow on a 2D triangulated surface 
 Underlying Principle : Every vertex has a discrete Gaussian Curvature
 
 
-K_i = 2\pi - \sum_{j \ne i} \theta_i^{ik}
+$$
+K_i = 2\pi - \sum_{j \ne i} \theta_j^{ik}
+$$
 
 
 Where θ^jk_i is the interior angle at vertex $i$ in triangle $Δijk$. Under Ricci Flow , circle packings or conformal edge factors evovle dynamically so $Ki$ -> 0 (or constant curvature)
