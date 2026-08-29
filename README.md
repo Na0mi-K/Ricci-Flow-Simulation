@@ -29,7 +29,7 @@ $$
 K_i = 2\pi - \sum_{j \ne i} \theta_j^{ik}
 $$
 
-Where $\theta^{jk}_i$ is the interior angle at vertex $i$ in triangle $\triangle Δijk$ . Under Ricci Flow , circle packings or conformal edge factors evovle dynamically so $K_i \rightarrow 0$ (or constant curvature)*
+Where $\theta^{jk}_i$ is the interior angle at vertex $i$ in triangle $\triangle ijk$ . Under Ricci Flow , circle packings or conformal edge factors evovle dynamically so $K_i \rightarrow 0$ (or constant curvature)*
 -The Challenge : Dynamically adjust vertex coordinates or conformal metric scaling factors $ui$ at each step :
 
 $$
