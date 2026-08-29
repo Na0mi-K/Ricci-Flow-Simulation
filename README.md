@@ -20,15 +20,16 @@ Flattened DEmo :
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This program implements the discrete curvaure flow on a 2D triangulated surface mesh to flatten or uniformize its geometry (discrete analogue to the Ricci Flow that proved the Poincaré Conjecture)
-Underlying Principle : Every vertex has a discrete Gaussian Curvature
+This program implements the discrete curvaure flow on a 2D triangulated surface mesh to flatten or uniformize its geometry *(discrete analogue to the Ricci Flow that proved the Poincaré Conjecture)*
+
+**-Underlying Principle** : Every vertex has a discrete Gaussian Curvature
 
 
 $$
 K_i = 2\pi - \sum_{j \ne i} \theta_j^{ik}
 $$
 
-Where $\theta^{jk}_i$ is the interior angle at vertex $i$ in triangle $Δijk$. Under Ricci Flow , circle packings or conformal edge factors evovle dynamically so $Ki$ -> 0 (or constant curvature)
+Where $\theta^{jk}_i$ is the interior angle at vertex $i$ in triangle $\triangle Δijk$ . Under Ricci Flow , circle packings or conformal edge factors evovle dynamically so $K_i \rightarrow 0$ (or constant curvature)*
 -The Challenge : Dynamically adjust vertex coordinates or conformal metric scaling factors $ui$ at each step :
 
 $$
