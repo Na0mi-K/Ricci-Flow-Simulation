@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#programme de NaomiK , FluoroPolymers™
+***#programme de NaomiK , FluoroPolymers™***
 
 - Feel free to alter the variables to make different simulations . Think of it as a simulation engine more than a finished product 
 - You will need NumPy to run this
